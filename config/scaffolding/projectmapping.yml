@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: MJAN11AugProject
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: InvokeService
+    type: workflow
+    uid: fl045cc9ef72eb4dfda7cef33f47054969
+    stepId: a0
+    reference: DADA_InvokeFlow:invokeFlow
