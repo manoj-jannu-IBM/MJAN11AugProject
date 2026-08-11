@@ -15,7 +15,8 @@ packages:
   gitBranch: main
 security:
 - name: DADA_InvokeFlow
-  allowedServices: []
+  allowedServices:
+  - pub.flow:invokeService
   javaServiceSetting: NONE
 services:
 - serviceName: project.mjan11aug.integrations:InvokeFS
