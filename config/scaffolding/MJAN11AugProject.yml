@@ -12,13 +12,7 @@ packages:
   gitServerName: MJANGit
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
-  gitBranch: main
-security
-    - name: WmSterlingB2B
-       allowedServices:
-       - pub.flow:invokeService
-    javaServiceSettings: ALL
-    
+  gitBranch: main  
 services:
 - serviceName: project.mjan11aug.integrations:InvokeFS
   packages:
