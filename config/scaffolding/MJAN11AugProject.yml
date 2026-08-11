@@ -13,10 +13,6 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
-security:
-- name: DADA_InvokeFlow
-  allowedServices: []
-  javaServiceSetting: NONE
 services:
 - serviceName: project.mjan11aug.integrations:InvokeFS
   packages:
